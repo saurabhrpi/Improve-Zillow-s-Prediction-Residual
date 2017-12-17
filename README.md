@@ -11,10 +11,10 @@ The log error is defined as logerror = log(Zestimate) − log(SalePrice)
 ### Data
 
 Zillow provided a full list of real estate properties in three counties (Los Angeles, Orange and Ventura, California) data in 2016-17. Following are these data files and can be accessed [here](https://www.kaggle.com/c/zillow-prize-1/data) :  
-properties_2016.csv - all the properties with their home features for 2016. 
-properties_2017.csv - all the properties with their home features for 2017 
-train_2016.csv - the training set with transactions from 1/1/2016 to 12/31/2016
-train_2017.csv - the training set with transactions from 1/1/2017 to 9/15/2017 
+properties_2016.csv - all the properties with their home features for 2016.  
+properties_2017.csv - all the properties with their home features for 2017.  
+train_2016.csv - the training set with transactions from 1/1/2016 to 12/31/2016.  
+train_2017.csv - the training set with transactions from 1/1/2017 to 9/15/2017.  
 
 ### Contribution Guidelines
 
@@ -26,11 +26,11 @@ by adding comments and clean up inconsistent whitespace
 
 ### Submitting a Pull Request
 
-Fork the official repository.
-Create a topic branch.
-Implement your fix.
-Add, commit, and push your changes.
-Submit a pull request.
+Fork the official repository.  
+Create a topic branch.  
+Implement your fix.  
+Add, commit, and push your changes.  
+Submit a pull request.  
 
 ### Notes
 
