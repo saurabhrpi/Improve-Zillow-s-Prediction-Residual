@@ -8,6 +8,12 @@ In this project, taken up from the Kaggle competition : "Zillow Prize: Zillow’
 
 The log error is defined as logerror = log(Zestimate) − log(SalePrice)  
 
+### Why model residual error
+
+The residual errors from forecasts on a time series provide another source of information that we can model.  
+
+More on this [here](https://machinelearningmastery.com/model-residual-errors-correct-time-series-forecasts-python/).
+
 ### Data
 
 Zillow provided a full list of real estate properties in three counties (Los Angeles, Orange and Ventura, California) data in 2016-17. Following are these data files and can be accessed [here](https://www.kaggle.com/c/zillow-prize-1/data) :  
