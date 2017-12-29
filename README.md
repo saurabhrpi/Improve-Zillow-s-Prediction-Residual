@@ -22,23 +22,36 @@ properties_2017.csv - all the properties with their home features for 2017.
 train_2016.csv - the training set with transactions from 1/1/2016 to 12/31/2016.  
 train_2017.csv - the training set with transactions from 1/1/2017 to 9/15/2017.  
 
-### Contribution Guidelines
+### Install
 
-Here are the important ways you can contribute:
+This project requires **Python 2.7** and the following Python libraries installed:
 
-by coming up with a model that further reduces the error.  
-by writing or editing documentation
-by adding comments and clean up inconsistent whitespace 
+- [xgboost](http://xgboost.readthedocs.io/en/latest/)  
+- [seaborn](https://seaborn.pydata.org/)  
+- [ggplot](http://ggplot.yhathq.com/)  
+- [NumPy](http://www.numpy.org/)  
+- [Pandas](http://pandas.pydata.org)  
+- [matplotlib](http://matplotlib.org/)  
+- [scikit-learn](http://scikit-learn.org/stable/)  
 
-### Submitting a Pull Request
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
-Fork the official repository.  
-Create a topic branch.  
-Implement your fix.  
-Add, commit, and push your changes.  
-Submit a pull request.  
+If you do not have Python installed, you can install the same from [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included.
 
-### Notes
+### Code
 
-Please add tests if you changed code.  
-Contributions without tests won't be accepted.
+Main code is provided in the `customer_segments.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `customers.csv` dataset file to complete your work. If you are interested in how the visualizations are created in the notebook, please feel free to explore the code included in `visuals.py`.
+
+### Run
+
+In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
+
+```bash
+ipython notebook customer_segments.ipynb
+```  
+or
+```bash
+jupyter notebook customer_segments.ipynb
+```
+
+This will open the Jupyter Notebook software and project file in your browser.
