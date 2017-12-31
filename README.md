@@ -17,19 +17,19 @@ More on this [here](https://machinelearningmastery.com/model-residual-errors-cor
 ### Data
 
 Zillow provided a full list of real estate properties in three counties (Los Angeles, Orange and Ventura, California) data in 2016-17. Following are these data files and can be accessed [here](https://www.kaggle.com/c/zillow-prize-1/data) :  
-properties_2016.csv - all the properties with their home features for 2016.  
-properties_2017.csv - all the properties with their home features for 2017.  
-train_2016.csv - the training set with transactions from 1/1/2016 to 12/31/2016.  
-train_2017.csv - the training set with transactions from 1/1/2017 to 9/15/2017.  
+- properties_2016.csv - all the properties with their home features for 2016.  
+- properties_2017.csv - all the properties with their home features for 2017.  
+- train_2016.csv - the training set with transactions from 1/1/2016 to 12/31/2016.  
+- train_2017.csv - the training set with transactions from 1/1/2017 to 9/15/2017.  
 
 Each Input sample represents a real estate property. A real estate property can be a residential house, commercial setting or even an empty land.   
 Following are some examples of the features of an input sample:  
-Total area (finished or unfinished) of the property  
-Total assessed value of the property  
-Neighborhood,region, city, zip, state of the property  
-Property Zoning code assigned by a municipal authority  
-Kind of material used to build the house if applicable  
-Total number of bathrooms, bedrooms, pools, patios, spas, garages, floors,fireplaces etc. on the property if applicable   
+- Total area (finished or unfinished) of the property  
+- Total assessed value of the property  
+- Neighborhood,region, city, zip, state of the property  
+- Property Zoning code assigned by a municipal authority  
+- Kind of material used to build the house if applicable  
+- Total number of bathrooms, bedrooms, pools, patios, spas, garages, floors,fireplaces etc. on the property if applicable   
 
 The output or target variable is an error value called logerror that represents the difference between the log (Zestimate) and log (Actual Sales Price). Zestimate is the Zillow’s prediction of the monetary value of that property while actual sales price is the price at which that property actually got sold.  
 
