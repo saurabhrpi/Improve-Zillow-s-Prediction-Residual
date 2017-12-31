@@ -22,7 +22,8 @@ properties_2017.csv - all the properties with their home features for 2017.
 train_2016.csv - the training set with transactions from 1/1/2016 to 12/31/2016.  
 train_2017.csv - the training set with transactions from 1/1/2017 to 9/15/2017.  
 
-Each Input sample represents a real estate property. A real estate property can be a residential house, commercial setting or even an empty land. Following are some examples of the features of an input sample:  
+Each Input sample represents a real estate property. A real estate property can be a residential house, commercial setting or even an empty land.   
+Following are some examples of the features of an input sample:  
 Total area (finished or unfinished) of the property  
 Total assessed value of the property  
 Neighborhood,region, city, zip, state of the property  
