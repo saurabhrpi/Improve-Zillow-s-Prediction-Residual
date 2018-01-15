@@ -1,5 +1,7 @@
 ## Model to improve the Zestimate residual error
 
+**Note : The main code is in ZillowEstimate.ipynb**
+
 Zillow’s Zestimate home valuation has shaken up the U.S. real estate industry since first released 11 years ago.   
 
 “Zestimates” are estimated home values based on 7.5 million statistical and machine learning models that analyze hundreds of data points on each property. And, Zillow has been continually striving to improve the median margin of error from 14% at the onset to 5% today.   
