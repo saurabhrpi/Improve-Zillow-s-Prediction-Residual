@@ -48,6 +48,10 @@ Sale price is the actual sale price of the house.
 The benchmark is a naive model that always predicts the mean of the residual error learned from the training data. To be more specific, the mean of the log error in the training data set (around 75% of the entire data) was found to be around 0.0142. The mean absolute error calculated based on this value for the test set (the rest of the 25% of the entire data) was
 calculated to be : 0.07114106 .  
 
+### Results  
+
+
+
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
